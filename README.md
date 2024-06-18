@@ -14,8 +14,9 @@ This assignment aims to familiarize you with the tools and configurations necess
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
 
-1.Installing windows 11
 
+
+1.Installing windows 11
 Step 1: Create a bootable USB drive
 Materials:
 USB drive with at least 8GB of storage space
@@ -31,40 +32,61 @@ Insert the USB drive into a USB port on the computer you want to install Windows
 Turn on the computer and press the key that is displayed on the screen to enter the BIOS settings.
 In the BIOS settings, change the boot order so that the USB drive is the first boot device.
 Save the changes and exit the BIOS settings.
+
+
 Step 3: Start the Windows 11 installation
 Instructions:
 The computer will now boot from the USB drive.
 Select your language, time and currency format, and keyboard input method.
 Click "Next".
+
+
 Step 4: Select the installation type
 Instructions:
 Choose "Install Now".
+
+
 Step 5: Accept the license agreement
 Instructions:
 Select "I accept the license terms" and click "Next".
+
+
 Step 6: Choose the installation type
 Instructions:
 Select "Custom: Install Windows only (advanced)".
+
+
 Step 7: Select the hard drive
 Instructions:
 Select the hard drive where you want to install Windows 11.
 Click "Next".
+
+
 Step 8: Install Windows 11
 Instructions:
 The Windows 11 installation will now begin. This may take some time.
+
+
 Step 9: Set up your user account
 Instructions:
 Once the installation is complete, you will be prompted to set up your user account.
 Enter your username and password.
 Click "Next".
+
+
 Step 10: Configure your settings
 Instructions:
 You will now be asked to configure your settings, such as privacy, security, and updates.
 Make your selections and click "Next".
+
+
 Step 11: Finish the installation
 Instructions:
 Windows 11 will now finish the installation process.
 Once the installation is complete, your computer will restart.
+
+
+
 
 
 
@@ -77,7 +99,6 @@ Once the installation is complete, your computer will restart.
 Step 1: Download the Visual Studio Code Installer
 Visit the official Visual Studio Code download page: https://code.visualstudio.com/download
 Choose the installer for your operating system (Windows, macOS, or Linux).
-
 ![alt text](image-1.png)
 
 Step 2: Run the Installer
@@ -88,14 +109,20 @@ If prompted, accept any user agreements or privacy policies.
 
 Step 3: Launch Visual Studio Code
 After the installation is complete, you can launch Visual Studio Code from the Start menu (Windows), Applications folder (macOS), or terminal (Linux).
+
+
 Step 4: Install Extensions (Optional)
 Extensions enhance the functionality of Visual Studio Code.
 To install extensions, open the Extensions Marketplace from the View menu.
 Browse and search for extensions that meet your needs.
 Click the "Install" button for extensions you want to add.
+
+
 Step 5: Configure Your Settings (Optional)
 To customize your Visual Studio Code environment, open the Settings tab from the File menu.
 You can adjust settings such as theme, font size, keyboard shortcuts, and many more.
+
+
 Step 6: Create a Workspace (Optional)
 A workspace is a collection of files and folders that you work on within Visual Studio Code.
 To create a workspace, click the "File" menu and select "Open Folder".
@@ -113,20 +140,26 @@ Navigate to the folder containing the files you want to work on.
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
 Download the Git installer: Visit the official Git website (https://git-scm.com/downloads) and download the installer for your operating system.
+
 Run the installer: Double-click on the downloaded installer and follow the on-screen instructions to install Git.
 Configuring Git
+
 Open Git Bash: Launch Git Bash by searching for it in your start menu or application launcher.
 Set your username: Run the following command to set your Git username:
 git config --global user.name "Your Name"
+
 Set your email address: Run the following command to set your Git email address:
 git config --global user.email "your@email.address"
+
 Verify your settings: Run the following command to verify that your settings are properly configured:
 git config --list
 Additional steps for specific operating systems
 Windows:
+
 Enable line endings conversion: Open Git Bash and run the following command:
 git config --global core.autocrlf input
 macOS:
+
 Install Xcode Command Line Tools: Xcode Command Line Tools are required for additional command-line utilities. Install them via the App Store.
 Linux:
 Install Git dependencies: Depending on your distribution, you may need to install additional dependencies. For example, on Ubuntu:
@@ -198,13 +231,13 @@ source my_venv/bin/activate
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
-1. Check if Pip is Already Installed:
+. Check if Pip is Already Installed:
 Open a command prompt or terminal window.
 Type
 pip --version
-.
+
 If Pip is already installed, the version will be displayed.
-2. Install Pip Using Get-Pip Script:
+. Install Pip Using Get-Pip Script:
 Windows:
 Download the get-pip.py script from https://bootstrap.pypa.io/get-pip.py.
 Open a command prompt as administrator.
@@ -220,16 +253,16 @@ to download the script.
 Run
 sudo python get-pip.py
 to install Pip as root.
-3. Verify Installation:
+. Verify Installation:
 Run
 pip --version
 again to check if Pip is installed and to display the version.
-4. Install pipx (Optional):
+. Install pipx (Optional):
 pipx is a tool that helps manage and install Python packages in isolated environments.
 To install pipx, run
 pip install pipx
-.
-5. Set Environment Variables (Optional):
+
+. Set Environment Variables (Optional):
 To use pipx globally, add the following to your shell configuration file (e.g.,
 .bashrc
 ,
@@ -237,7 +270,7 @@ To use pipx globally, add the following to your shell configuration file (e.g.,
 ):
 export PIPX_HOME="$HOME/.local/pipx"
 export PATH="$PATH:$PIPX_HOME/bin"
-6. Upgrade Pip (Optional):
+. Upgrade Pip (Optional):
 To upgrade Pip to the latest version, run
 pip install --upgrade pip
 
@@ -253,31 +286,31 @@ pip install --upgrade pip
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-1. Download the Installation File:
+. Download the Installation File:
 Visit the official website of the SQL database vendor (e.g., Microsoft for SQL Server, Oracle for Oracle Database, MySQL for MySQL)
 Locate the download page for the specific version you want to install
 Download the installation file (.exe, .tar.gz, etc.)
-2. Start the Installation Process:
+. Start the Installation Process:
 Double-click on the installation file to launch the setup wizard
 Follow the on-screen instructions
 Select the target directory where you want to install the database software
-3. Choose the Installation Type:
+. Choose the Installation Type:
 Select the type of installation you want: full, custom, or express
 The full installation installs all optional components, while the custom installation allows you to select specific features and components
-4. Configure the Database Instance:
+. Configure the Database Instance:
 Specify the name of the database instance (e.g., "MY_DATABASE")
 Choose the database engine settings, such as the authentication mode and port number
-5. Create a Database User:
+. Create a Database User:
 Create a database user and assign it a password
 This user will be used to manage and access the database
-6. Install Additional Components (Optional):
+. Install Additional Components (Optional):
 If needed, install additional components or tools, such as the management studio or other utilities
-7. Configure the Firewall (Windows only):
+. Configure the Firewall (Windows only):
 If you are installing on Windows, you may need to configure the firewall to allow connections to the database server
-8. Start the Database Service:
+. Start the Database Service:
 Start the database service to make it available for use
 Verify that the service is running smoothly
-9. Verify Installation:
+. Verify Installation:
 Connect to the database using the user you created and check if you can execute queries and manage the database
 Additional Notes:
 The specific installation steps may vary slightly depending on the SQL database software you are using
