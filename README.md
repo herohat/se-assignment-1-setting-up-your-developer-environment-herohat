@@ -398,9 +398,48 @@ Dedicated Teams: Assign specialized teams responsible for managing and maintaini
 
 
 
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+9. Document Your Setup: Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. <Step 1: Create a New Repository on GitHub> Go to GitHub: Open your web browser and navigate to GitHub.
+Sign in: Log in to your GitHub account.
 
+Create a new repository:
+
+Click on the "+" icon in the upper right corner and select "New repository". Enter a repository name (e.g., sample-project). Optionally add a description. Choose the visibility (Public or Private). Initialize the repository with a README file. Optionally add a .gitignore template and a license. Click "Create repository".
+
+Step 2: Clone the Repository Locally Open your terminal.
+
+Clone the repository:<git clone https://github.com/your-username/sample-project.git
+
+Step 3 :Navigate to the repository directory:
+
+<cd sample-project
+
+Step 3: Add a Sample Project and Configuration Files Create a sample project structure. For example, if it's a simple Python project:
+
+<mkdir src tests touch src/main.py tests/test_main.py
+
+Create a .gitignore file (if not added during repository creation):
+
+<touch .gitignore
+
+Add common Python ignores to .gitignore:
+
+plaintext Copy code pycache/ *.pyc .env .vscode/ <Commit the changes:
+
+bash Copy code git add . git commit -m "Initial commit with sample project structure and .gitignore" Step 4: Push Changes to GitHub Push your changes to GitHub:
+
+<bash Copy code git push origin main Step 5: Open the Repository in VSCode Open VSCode.
+
+Open the repository folder:
+
+You can use the terminal command if VSCode is in your PATH:
+
+<bash Copy code code . Or manually open VSCode and use "File" > "Open Folder..." to navigate to the sample-project directory.
+
+Summary Create a GitHub repository. Clone the repository locally. Add a sample project and configuration files. Commit and push changes. Open the project in VSCode.
+
+<A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).>
+
+<https://github.com/herohat/[sample-project.git](https://github.com/herohat/se-assignment-1-setting-up-your-developer-environment-herohat.git)
 
 
 #Deliverables:
